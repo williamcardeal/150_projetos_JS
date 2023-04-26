@@ -1,3 +1,7 @@
+
+
+//Criando um script simples que exiba uma mensagem de boas-vindas no console do navegador.
+
 let ola = "Ola , Esse e o Projeto primeiro ou "
 
 console.log(ola)
