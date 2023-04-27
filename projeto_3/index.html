@@ -22,35 +22,40 @@
       </section>
       <section id="calculator">
         <form id="form">
-          <h1 id="title">Calculadora-IMC</h1>
+          <h1 id="title">Calculadora - IMC</h1>
           <div class="input-box">
             <label for="wight"> Peso em kg </label>
-            <div class="input-field"></div>
-            <i class="fa-solid fa-weight-hanging"></i>
-            <input type="number" name="" id="weight" required />
-            <samp> kg </samp>
+            <div class="input-field">
+                <i class="fa-solid fa-weight-hanging"></i>
+                <input type="number" name="" id="weight" required autocomplete="off"/>
+                <samp> kg </samp>
+            </div>
+           
           </div>
 
           <div class="input-box">
             <label for="height"> Peso em kg </label>
-            <div class="input-field"></div>
-            <i class="fa-solid fa-ruler"></i>
-            <input type="number" name="" id="height" required />
-            <samp> m </samp>
+            <div class="input-field">
+                <i class="fa-solid fa-ruler"></i>
+                <input type="number" name="" id="height" required autocomplete="off"/>
+                <samp> m </samp>
+            </div>
+           
           </div>
           <button id="calculate">calcular</button>
         </form>
-        <div id="infos">
+        <div id="infos" class="hidden">
           <div id="result">
             <div id="bmi">
-              <span id="value"></span>
-              <span>Seu IMC</span>
+              <span id="value">55</span>
+              <span id="seuimc">Seu IMC</span>
             </div>
-            <div descriptin>
-              <span></span>
+            <div id="descriptin">
+              <span>55</span>
             </div>
           </div>
-          <div id="more_info">
+          <div id="more_info" >
+            
             <a href="https://brasilescola.uol.com.br/saude " target="_blank"
               >Informações sobre o IMC
               <i class="fa-solid fa-up-right-from-square"></i>
