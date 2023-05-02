@@ -1,0 +1,143 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+/*
+cor 1 #75006A titulo
+cor 2 #F500DC claro
+cor 3 #75236D escuro
+
+*/
+
+html,body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to right,#F500DC, #75236D) ;
+    color: #fff;
+    text-align: center;
+    padding: 30px;
+}
+main{
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 5px 5px  10px rgba(0, 0, 0, 0.493);
+    border-radius: 4px;
+   
+    
+}
+header{
+    margin-top: 40px;
+}
+ 
+#formheader{
+    position: relative;
+} 
+#formheader input{
+  
+    text-align: center;
+    box-sizing: border-box;
+    box-shadow: 5px 5px  10px rgba(0, 0, 0, 0.493);
+    background-color:#fff;
+    color: #75236D;
+    padding: 15px;
+    font-size: 18px;
+    width: 400px;
+    border-radius: 4px;
+ }
+ 
+#formheader input::placeholder{
+    color: #75236D;
+   
+}
+#formheader input:focus{
+    outline: none;
+}
+
+
+
+
+#add-btn{
+   position:relative;
+    background-color: #fff;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: 0.5;
+    width: 60px;
+    height: 53px;
+    top: 0px;
+    right: 0px;
+   
+ } 
+ #add-btn:hover{
+    background-color:#42003c;
+    color:#fff ;
+ }
+
+  h2{
+    padding: 20px;
+  }
+
+
+ul{
+    list-style: none;
+    padding-left: 0px;
+    padding: 10px;
+}
+ul > li{
+    text-align: left;
+    height: 30px;
+    line-height: 50px;
+    position: relative;
+    box-shadow: 5px 5px  10px rgba(0, 0, 0, 0.493);
+    background-color: #fff;
+    color: #42003c;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    transition: 0.5s;
+    font-weight: bold;
+    border-radius: 4px;
+} 
+span{
+    font-size: 18px;
+    padding-left: 10px;
+}
+ul > li >ion-icon{
+    position: absolute;
+    top: 0px;
+    height: 40px;
+    transition: 0.5s ;
+    cursor: pointer;
+    width: 30px;
+    padding: 5px;
+    
+
+}
+
+.done-btn{
+    left:440px ;
+}
+.remove-btn{
+    left:400px ;
+
+}
+
+.done-btn:hover{
+    color: #fff;
+    background-color:rgb(2, 179, 2);
+}
+.remove-btn:hover{
+    color: #fff;
+    background-color:rgb(255, 0, 0);
+}
+.hide{
+    display: none;
+} 
+
+.done{
+   background-color: #42003c;
+   color: #fff;
+   text-decoration: line-through;
+}
+
