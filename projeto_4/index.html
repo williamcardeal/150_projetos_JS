@@ -1,40 +1,44 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>js</title>
-    <link rel="stylesheet" href="./css/style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
     <main id="">
-        <header id="">
-            <h2>Salve a Sua Proxima Tarefa </h2>
-            <form action="" id="formheader">
-                <input type="text" id="task-title" placeholder="Oque Vamos Fazer Hoje!" autocomplete="on">
-             
-                    <button id="add-btn" type="submit">
-                        <ion-icon name="add-outline"></ion-icon>
-                    </button>
-               
-              </form>
+      <header id="">
+        <h2>Salve a Sua Proxima Tarefa</h2>
+        <form action="" id="formheader">
+          <input
+            type="text"
+            id="task-title"
+            placeholder="Oque Vamos Fazer Hoje!"
+            autocomplete="on"
+          />
 
-        </header>
-        <aside>
-            <h2>Todas as Suas tarefas:</h2>
-            <ul>
-               <li class="task-box template hide" id="done1">
-                <span class="task-title "></span>
-                <ion-icon class="done-btn" name="checkmark-outline"></ion-icon>
-                <ion-icon class="remove-btn" name="close-outline"></ion-icon>
-                </li>
-             </ul>
-
-        </aside>
-
+          <button id="add-btn" type="submit">
+            <ion-icon name="add-outline"></ion-icon>
+          </button>
+        </form>
+      </header>
+      <aside>
+        <h2>Todas as Suas tarefas:</h2>
+        <ul>
+          <li class="task-box template hide" id="done1">
+            <span class="task-title"></span>
+            <ion-icon class="done-btn" name="checkmark-outline"></ion-icon>
+            <ion-icon class="remove-btn" name="close-outline"></ion-icon>
+          </li>
+        </ul>
+      </aside>
     </main>
     <script src="./js/script.js"></script>
-    <script  type = "module"  src = "https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"> </script> 
-</body>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+  </body>
 </html>
