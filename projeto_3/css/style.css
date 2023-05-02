@@ -129,8 +129,9 @@ cursor: pointer;
     color: #cbd5e1;
 
 }
-#descriptin{
-    width: 15rem;
+#description{
+    width: 15rem
+
 
 }
 #seuimc::after{
@@ -170,6 +171,22 @@ opacity: 0.8;
 
 .hidden{
     display: none;
+} 
+
+.verde{
+    color: #16a34a;
 }
+
+.amarelo{
+    color: yellow;
+}
+
+
+.vermelho{
+    color: #dc2626;
+}
+
+
+
 
 
