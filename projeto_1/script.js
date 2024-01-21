@@ -11,3 +11,4 @@ let cardeal = 1 + " Do basico ao avançado"
 console.log(cardeal)
 
 alert(ola + cardeal)
+ 
